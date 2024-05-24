@@ -1,0 +1,17 @@
+# hydra general config
+hydra:
+  job:
+    chdir: True
+  sweep:
+    dir: multirun
+    subdir: ${hydra.job.override_dirname}
+
+generator:
+  lr: 0.01
+  batch_size: 64
+
+discriminator:
+  lr: 0.001
+  batch_size: 64
+  criterion_psi: 0.0002
+

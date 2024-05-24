@@ -1,2 +1,6 @@
-datas/MNIST
+datas/MNIST/
 tmp/
+multirun/
+outputs/
+runs/
+*__pycache__/
