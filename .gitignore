@@ -4,3 +4,5 @@ multirun/
 outputs/
 runs/
 *__pycache__/
+*.gif
+*tmp*/
